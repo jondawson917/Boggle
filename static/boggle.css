@@ -1,0 +1,27 @@
+.board {
+  border:  1px blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: thick;
+  font-size: 100%;
+}
+
+.board td {
+  text-align: center;
+  width: 1.25em;
+  height: 1.25em;
+}
+
+.msg {
+  padding: 1.5em;
+}
+
+.msg.ok {
+  color: white;
+  background-color: darkolivegreen;
+}
+
+.msg.err {
+  color: white;
+  background-color: crimson;
+}
+
